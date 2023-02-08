@@ -10,6 +10,8 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Application {
 
+    //test comment -> see on GitHub = successfully create repo on GitHub
+
     private static final Logger log = LoggerFactory.getLogger(Application.class);
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
