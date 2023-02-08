@@ -12,8 +12,8 @@ public class BuddyInfo {
     private String name;
     private String phoneNum;
     @Id
-        @GeneratedValue
-        private Long id;
+    @GeneratedValue
+    private Long id;
 
         //constructors
         //default constructor
