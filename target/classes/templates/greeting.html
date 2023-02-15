@@ -9,9 +9,9 @@
     <form action="#" th:action="@{/addressBookCreate}" th:object="${addressBook}" method="post">
         <p><input type="submit" value="see address book" /></p>
     </form>
+            <h1>Create Buddy</h1>
             <p class="addressbook-id"></p>
             <p class="addressbook-contents"></p>
-            <h1>Create Buddy</h1>
     <form action="#" th:action="@{/buddyAdd}" th:object="${buddy}" method="post">
             <p>Name: <input type="text" th:field="*{name}" /></p>
             <p>Phone Number: <input type="text" th:field="*{phoneNum}" /></p>
